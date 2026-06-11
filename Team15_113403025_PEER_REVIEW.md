@@ -83,8 +83,6 @@
 
 #### What did this teammate deliver?
 
-> *Your answer:*
-> They were primarily responsible for the backend database architecture and querying logic. Specifically, they:
 > 1. Designed the Unified Relational Schema (`schema.sql`), ensuring proper normalization, strict ON DELETE cascade/restrict strategies, and correct TIMESTAMPTZ data types.
 > 2. Implemented the PostgreSQL seeding script (`seed_postgres.py`) and integrated Argon2 password hashing for secure user credential storage.
 > 3. Authored core relational queries (`databases/relational/queries.py`), including atomic transaction logic and dynamic fare calculations.
@@ -92,7 +90,6 @@
 
 #### Did their actual contribution match the agreed work allocation?
 
-> *Your answer (Yes / Mostly / Partially / No — with explanation):*
 > Yes, they completed all their assigned tasks effectively and delivered high-quality database scripts.
 
 #### Peer rating for this teammate
@@ -120,8 +117,6 @@
 
 #### What did this teammate deliver?
 
-> *Your answer:*
-> They were responsible for refining the Relational database module and resolving crucial environment configurations. Specifically, they:
 > 1. Refined `schema.sql` to eliminate naming conflicts and ensure data integrity.
 > 2. Implemented relational query functions handling both read-only and complex write operations.
 > 3. Debugged the `seed_postgres.py` script to align with the schema.
@@ -130,7 +125,6 @@
 
 #### Did their actual contribution match the agreed work allocation?
 
-> *Your answer (Yes / Mostly / Partially / No — with explanation):*
 > Yes, they stepped up to resolve critical environment and port mapping issues, which was essential for the team to run the system locally.
 
 #### Peer rating for this teammate
@@ -164,23 +158,19 @@
 
 ### D1. What went well in the team's collaboration?
 
-> *Your answer (2–4 sentences):*
-> Our team had an incredibly balanced workload (34/33/33). Everyone pulled their weight and took ownership of highly technical tasks. We effectively divided the backend operations, with each member contributing to both the relational and graph databases while cross-reviewing each other's code to catch bugs early.
+> Our team had an incredibly balanced workload . Everyone pulled their weight and took ownership of highly technical tasks. We effectively divided the backend operations, with each member contributing to both the relational and graph databases while cross-reviewing each other's code to catch bugs early.
 
 ---
 
 ### D2. What would you do differently if you did this project again?
 
-> *Your answer (2–4 sentences):*
-> Because all three of us had to frequently edit the core files (`schema.sql` and `queries.py`), we occasionally stepped on each other's toes regarding syntax and naming conventions. If we did this again, I would establish stricter Git branch management rules (like using independent Feature Branches and Pull Requests) right from day one to avoid merge conflicts.
+> Because all three of us had to frequently edit the core files (`schema.sql` and `queries.py`), we occasionally stepped on each other's toes regarding syntax and naming conventions. If we did this again, I would establish stricter Git branch management rules (such as using independent Feature Branches and Pull Requests) right from day one to avoid merge conflicts.
 
 ---
 
 ### D3. Is there anything else the markers should know about team dynamics or individual contributions?
 
-> *Your answer (or "Nothing to add"):*
-> Nothing to add. The team worked perfectly together.
-
+> Nothing. 
 ---
 
 ## Declaration
