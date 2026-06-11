@@ -36,7 +36,6 @@
 
 ### A1. What did you personally implement?
 
-> *Your answer:*
 > I was primarily responsible for the core database architecture, query implementation, and the final design documentation. Specifically, I:
 > 1. Designed the complete relational schema (`schema.sql`), ensuring proper 3NF normalization for the seating system and strategic de-normalization for the station lines.
 > 2. Implemented complex PostgreSQL transactional queries (`queries.py`), specifically the atomic `execute_booking` and `execute_cancellation` functions with proper rollback mechanisms.
@@ -47,7 +46,6 @@
 
 ### A2. What challenges did you face?
 
-> *Your answer:*
 > One major challenge was dealing with the strict Cypher syntax requirements in Neo4j. During the implementation of the `query_delay_ripple` function, the initial syntax `*1..$hops` caused system crashes when `hops=0`. I had to dive deep into APOC documentation and debug the logic, successfully resolving it by modifying the range to `*0..$hops` to handle boundary cases gracefully. Additionally, compiling the comprehensive Design Document required aligning everyone's technical implementations into a unified academic format.
 
 ---
